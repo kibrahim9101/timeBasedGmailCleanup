@@ -32,4 +32,4 @@ I highly recommend you look through the available [Gmail Search Operators](https
 - *is:starred/important*: This will search for emails with a star or marked important.
   - I personally love using "NOT is:starred" so that starred emails will be excluded by the script.
 - *has:(some colored icon)*: If you use alternative icons like the colored stars, you can specified which one with the *has* operator. The *is:starred* search term will grab anything with an icon regardless of the color or how it looks.
-- *label/category(name)*: This will narrow the search down to the specific label or category if you use those to organize your inbox.
+- *label:/category:(name)*: This will narrow the search down to the specific label or category if you use those to organize your inbox.
