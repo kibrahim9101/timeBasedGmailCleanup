@@ -31,5 +31,6 @@ function cleanUp(age, emailAddress, searchString) {
 }
 
 function runCleanUp(){
-  // call your cleanUp functions inside this function and then have Google Apps Script run this function on a trigger.
+  // call your cleanUp functions inside this function. You can then run it manually or set up a trigger to run it at a specific time.
+  cleanUp(00, "your@emailaddress.com");
 }
