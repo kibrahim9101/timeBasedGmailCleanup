@@ -7,5 +7,5 @@ If you're like me, you probably have about 900 unread emails sitting in your inb
 ## Installation
 You'll first want to create a new Google Apps Script project. Go to Google Drive while signed in as the same account you want to work on emails for. Click on *NEW*, then hover over *More*, then click on *Google Apps Script.* It will open up a new page with a blank function. Copy all the text in *gmailCleanup.gs* and replace the contents of your current script. Click the save icon. Additionally, rename the project with an easily identifiable name, in case you need to come back later to edit the script.
 
-### Specify how old an email needs to be
+## Set up a simple clean.
 At the bottom of the script you'll see a function `runCleanUp`. Google Apps Script triggers will not let you pass arguments to a function before running it. In order to work around this I created the `runCleanUp` function as a container for the `cleanUp` function calls. If you don't need any advanced functionality
