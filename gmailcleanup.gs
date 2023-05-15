@@ -29,3 +29,7 @@ function cleanUp(age, emailAddress, searchString) {
   //Sends an email that will notify you of what the search was and how many emails were deleted.
   GmailApp.sendEmail(emailAddress, searchString + ": Script removed " + amountCleaned.toString() + " Emails", "Your email cleanup script for search" + '"' + finalSearch + '"' + " sucessfully ran"); // edited this line to display the full search from emailSearchResults for troubleshooting purposes
 }
+
+function runCleanUp(){
+  // call your cleanUp functions inside this function and then have Google Apps Script run this function on a trigger.
+}
